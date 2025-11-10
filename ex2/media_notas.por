@@ -16,7 +16,7 @@ programa {
     escreva ("Digite o valor da nota 4: ")
     leia(nota4)
     limpa()
-    real media = nota1 + nota2 + nota3 + nota4 / 4
+    real media = (nota1 + nota2 + nota3 + nota4) / 4
     escreva("A média do aluno é ", media)
 }
 }
