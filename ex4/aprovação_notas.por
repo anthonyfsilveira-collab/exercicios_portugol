@@ -1,5 +1,5 @@
 programa {
-  funcao inicio() {
+    funcao inicio() {
     real nota1
     real nota2
     real nota3
@@ -24,5 +24,6 @@ programa {
     
     senao 
         escreva("Média: ", media, ". Aluno recuperação!")
+
   }
 }
