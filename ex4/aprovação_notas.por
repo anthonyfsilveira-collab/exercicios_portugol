@@ -17,12 +17,12 @@ programa {
     real media = (nota1 + nota2 + nota3) / 3
 
     se (media >= 7 )
-      escreva("Aluno aprovado!")
+      escreva("Média: ", media, ". Aluno aprovado!")
 
     senao se (media <= 5 ) 
-        escreva("Aluno reprovado!")
+        escreva("Média: ", media, ". Aluno reprovado!")
     
     senao 
-        escreva("Aluno em recuperação!")
+        escreva("Média: ", media, ". Aluno recuperação!")
   }
 }
